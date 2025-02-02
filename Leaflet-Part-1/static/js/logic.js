@@ -22,7 +22,7 @@ basemap.addTo(map);
 // OPTIONAL: Step 2
 // Create the layer groups, base maps, and overlays for our two sets of data, earthquakes and tectonic_plates.
 let earthquakes = new L.LayerGroup();
-let tectonicPlates = new L.LayerGroup();
+
 
 let baseMaps = {
   "Basemap": basemap,
@@ -31,7 +31,6 @@ let baseMaps = {
 
 let overlayMaps = {
   "Earthquakes": earthquakes,
-  "Tectonic Plates": tectonicPlates
 };
 
 L.control.layers(baseMaps, overlayMaps).addTo(map);
