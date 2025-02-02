@@ -46,7 +46,7 @@ In **Leaflet Part 2**, we enhanced the map with additional layers and controls:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/YOUR_GITHUB_USERNAME/earthquake-visualization.git
+   git clone https://github.com/CarlosSanchez1999/leaflet-challenge.git
    ```
 2. Open `index.html` in your browser.
 
